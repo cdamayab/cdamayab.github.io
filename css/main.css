@@ -1,0 +1,29 @@
+.header-top {
+ background: rgba(0, 47, 77, .3);
+ height: 70px;
+ padding: 0 10px;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 12;
+ box-sizing: border-box;
+}
+
+
+#presentation{
+	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+	background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+	background: linear-gradient(#4BBFC3,#7BAABE);
+}
+
+#skills{
+	background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
+	background: -webkit-linear-gradient(#969AC6, #636F8F);
+	background: linear-gradient(#969AC6,#636F8F);
+}
+
+#projects{
+	background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
+	background: -webkit-linear-gradient(#7BAABE, #969AC6);
+	background: linear-gradient(#7BAABE,#969AC6);
+}
