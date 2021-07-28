@@ -1,6 +1,6 @@
 'use strict';
 
-class presentation extends React.Component {
+class projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
@@ -14,9 +14,9 @@ class presentation extends React.Component {
     return e(
       'h1',
       { onClick: () => this.setState({ liked: true }) },
-      'Presentation'
+      'Projects'
     );
   }
 }
 
-ReactDOM.render(e(presentation), document.querySelector('#presentation'));
+ReactDOM.render(e(projects), document.querySelector('#projects'));
