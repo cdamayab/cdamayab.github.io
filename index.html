@@ -2,9 +2,10 @@
 <html>
     <head>
 	<meta charset="UTF-8">
-	<title>CDAMAYAB</title>
+	<title>Portafolio</title>
 
 	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/particleground.css" />
 	<link rel="stylesheet" href="css/full_page_scroll.css" />
 
 
@@ -14,8 +15,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
 
+	<script type='text/javascript' src='js/particleground.js'></script>
 	
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
   
     </head>
 
@@ -23,10 +25,10 @@
 
 	<div id="navigation"></div>
 	<div class="well" id="well">
-	    <div class="panel" id="header">header</div>
-	    <div class="panel" id="presentation">presentation</div>
-	    <div class="panel" id="skills">skills</div>
-	    <div class="panel" id="projects">projects</div>
+	    <div class="panel" id="header"></div>
+	    <div class="panel" id="presentation"></div>
+	    <div class="panel" id="skills"></div>
+	    <div class="panel" id="projects"></div>
 	</div>
 
 	<div id="footer"></div>
@@ -43,6 +45,24 @@
 	<script src="js/com_presentacion.js"></script>
 	<script src="js/com_skills.js"></script>
 	<script src="js/com_projects.js"></script>
+
+	<script>
+		/**
+	   * Particleground demo
+	   * @author Jonathan Nicol - @mrjnicol
+	   * MIT Licence
+	   */
+	
+	  document.addEventListener('DOMContentLoaded', function () {
+		particleground(document.getElementById('particles'), {
+		  dotColor: '#3AAEB3', //'#012345',
+		  lineColor: '#3AAEB2'//'#456789'
+		});
+		var intro = document.getElementById('intro');
+		intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+	  }, false);
+	
+	</script>
 	
     </body>
 

@@ -9,6 +9,11 @@
  box-sizing: border-box;
 }
 
+#header{
+	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+	background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+	background: linear-gradient(#4BBFC3,#7BAABE);
+}
 
 #presentation{
 	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
@@ -26,4 +31,13 @@
 	background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
 	background: -webkit-linear-gradient(#7BAABE, #969AC6);
 	background: linear-gradient(#7BAABE,#969AC6);
+}
+
+#intro {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
 }
