@@ -9,8 +9,11 @@
  box-sizing: border-box;
 }
 
+/*
 #header{
-	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+	background: #16a085;
+	color: #ffffff;
+	background: -webkit-gradient(linear, top left, bottom left, from(#16a085), to(#7baabe));
 	background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
 	background: linear-gradient(#4BBFC3,#7BAABE);
 }
@@ -33,6 +36,8 @@
 	background: linear-gradient(#7BAABE,#969AC6);
 }
 
+/**/
+
 #intro {
     position: absolute;
     left: 0;
@@ -40,4 +45,8 @@
     padding: 0 20px;
     width: 100%;
     text-align: center;
+}
+
+#header button {
+	margin: 3px;
 }

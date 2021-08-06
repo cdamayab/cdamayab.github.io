@@ -40,6 +40,8 @@ body {
 	cursor: default;
 }
 
+/*
+
 .panel:nth-child(1) {
 	background: #012345;
 }
@@ -59,3 +61,5 @@ body {
 .panel:nth-child(5) {
 	background: #456789;
 }
+
+/**/

@@ -24,6 +24,7 @@
     <body>
 
 	<div id="navigation"></div>
+	<div class="particles_bg" id="particles_bg"></div>
 	<div class="well" id="well">
 	    <div class="panel" id="header"></div>
 	    <div class="panel" id="presentation"></div>
@@ -54,9 +55,9 @@
 	   */
 	
 	  document.addEventListener('DOMContentLoaded', function () {
-		particleground(document.getElementById('particles'), {
-		  dotColor: '#3AAEB3', //'#012345',
-		  lineColor: '#3AAEB2'//'#456789'
+		particleground(document.getElementById('particles_bg'), {
+		  dotColor: '#5cbdaa', //'#012345',
+		  lineColor: '#5cbdaa'//'#456789'
 		});
 		var intro = document.getElementById('intro');
 		intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
