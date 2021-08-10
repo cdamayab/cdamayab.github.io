@@ -39,7 +39,6 @@
 /**/
 
 #intro {
-    position: absolute;
     left: 0;
     top: 50%;
     padding: 0 20px;
@@ -49,4 +48,37 @@
 
 #header button {
 	margin: 3px;
+}
+
+
+.pan {
+	position:relative;
+	max-width: 750px;
+    width: 100%;
+	height:auto;
+	top: 50%;
+}
+#pan-left {
+	float:left;
+}
+
+#pan-right {
+	float:right;
+}
+
+/* Style all font awesome icons */
+#social{
+	font-size: 30px;
+	text-align: center;
+}
+
+.fa {
+	padding: 20px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa:hover {
+opacity: 0.7;
 }
