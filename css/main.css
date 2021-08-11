@@ -46,6 +46,20 @@
     text-align: center;
 }
 
+#intro p{
+    text-align: justify;
+}
+
+#intro-buttons button{
+	width: 45%;
+}
+
+#intro a.fa {
+    width: 100%;
+	text-align: left;
+	padding: 5px;
+}
+
 #header button {
 	margin: 3px;
 }
