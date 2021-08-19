@@ -38,9 +38,23 @@
 
 /**/
 
+.pan {
+	position:relative;
+	max-width: 750px;
+    width: 100%;
+	height:auto;
+	top: 50%;
+}
+
+#pan-left {
+	float:left;
+}
+
+#pan-right {
+	float:right;
+}
+
 #intro {
-    left: 0;
-    top: 50%;
     padding: 0 20px;
     width: 100%;
     text-align: center;
@@ -50,44 +64,33 @@
     text-align: justify;
 }
 
-#intro-buttons button{
-	width: 45%;
+#intro-buttons{
+	display: inline-block;
+    width: 100%;
+	padding: 20px 20px
 }
 
-#intro a.fa {
-    width: 100%;
-	text-align: left;
-	padding: 5px;
+#intro-buttons button{
+	width: 45%;
 }
 
 #header button {
 	margin: 3px;
 }
 
-
-.pan {
-	position:relative;
-	max-width: 750px;
-    width: 100%;
-	height:auto;
-	top: 50%;
-}
-#pan-left {
-	float:left;
-}
-
-#pan-right {
-	float:right;
-}
-
 /* Style all font awesome icons */
 #social{
+	display: inline-block;
+    width: 100%;
 	font-size: 30px;
 	text-align: center;
 }
 
+#social a{
+	color: inherit;
+}
+
 .fa {
-	padding: 20px;
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
@@ -96,3 +99,58 @@
 .fa:hover {
 opacity: 0.7;
 }
+
+#contactinfo{
+	width: 50%;
+    float: left;
+} 
+
+#contactinfo a.fa {
+    width: 100%;
+	text-align: left;
+	padding: 5px;
+}
+
+#miniskills{
+	width: 50%;
+    float: right;
+	text-align: left;
+}
+
+#miniskills button{
+	padding: 2px 12px;
+}
+
+#buttons{
+	width: 80%;
+	float: left;
+}
+
+.bracket{
+	font-size: 120px;
+	height: 100px; 
+	position:relative;
+	margin-top:-50px;
+	color:whitesmoke;
+}
+#left-bracket{ 
+	float: left;
+}
+#right-bracket{ 
+	float: right;
+}
+
+/***************************************************/
+
+#photo{
+	width: 50%;
+	position: relative;
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+  }
